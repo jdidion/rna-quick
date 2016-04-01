@@ -48,3 +48,7 @@ nextflow run jdidion/rna-quick
 ```
 
 Make sure to publish this file along with your metadata file, in order to enable others to perform exact replication of your analysis.
+
+# Project directory structure
+
+RNA Quick will perform all operations within the working directory (default: current directory).
