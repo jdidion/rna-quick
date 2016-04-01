@@ -41,13 +41,7 @@ nextflow run jdidion/rna-quick
 
 ## 3. Execution using custom configuration
 
-In the same directory that contains your metadata file, create a copy of `nextflow.config`. Edit the file to change any parameter values. Then run:
-
-```
-nextflow run jdidion/rna-quick
-```
-
-Make sure to publish this file along with your metadata file, in order to enable others to perform exact replication of your analysis.
+In the same directory that contains your metadata file, create a copy of `nextflow.config`. Edit the file to change any parameter values, then run the above command. Make sure to publish this config file along with your metadata file, in order to enable others to perform exact replication of your analysis.
 
 # Project directory structure
 
