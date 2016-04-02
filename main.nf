@@ -50,8 +50,8 @@ def parseAnnotationShortcut(shortcut) {
 
 /* Download the contents of a URL to a file. */
 def download(url, outfile) {
-    ReadableByteChannel input = Channels.newChannel(url.openStream())
-    FileOutputStream output = new FileOutputStream(outfile)
+    java.nio.ReadableByteChannel input = java.nio.Channels.newChannel(url.openStream())
+    java.nio.FileOutputStream output = new java.nio.FileOutputStream(outfile)
     output.getChannel().transferFrom(input, 0, Long.MAX_VALUE)
 }
 
